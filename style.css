@@ -9,6 +9,10 @@ h1{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
+h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
 .flexible{
     display: flex;
     margin-bottom: 50px;
@@ -38,8 +42,29 @@ h1{
     background-position: right;
 }
 .exprience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
-.e-h3{
-
+.e-hf{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: gold 10px 10px 40px;
+    border-radius: 10px;
+}
+#wd{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+#bwd{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
