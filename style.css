@@ -9,7 +9,7 @@ h1{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 50px;
 }
@@ -36,4 +36,10 @@ section{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprience{
+
+}
+.e-h3{
+
 }
